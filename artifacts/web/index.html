@@ -10,29 +10,191 @@
 
   <body>
     <nav>
-      <div class="logo">
-        <img src="images/logo2.png" alt="Ascot High School Logo" />
-        <h2>ASCOT HIGH SCHOOL</h2>
+      <div>
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Ascot High School Logo" />
+          <h2>ASCOT HIGH SCHOOL</h2>
+        </a>
       </div>
 
       <ul class="nav_links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="staff.html">Staff</a></li>
+        <li class="dropdown">
+          <a href="#">About Us</a>
+
+          <ul class="dropdown_menu">
+            <li><a href="staff.html">Staff</a></li>
+
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </li>
+
         <li><a href="courses.html">Courses</a></li>
-        <li><a href="#">Placeholder</a></li>
       </ul>
     </nav>
 
-    <section class="homepg_intro">
-      <h2>Business Studies & Information Technology Department</h2>
-      <p>"Working for Success"</p>
+    <section class="hero">
+      <div class="slider">
+        <img id="slide" src="images/banner1.webp" alt="Ascot High School" />
+      </div>
 
-      <div class="buttons">
-        <a href="staff.html" class="btn">Meet Our Staff</a>
-        <a href="courses.html" class="btn">View Courses</a>
+      <div class="overlay"></div>
+      <div class="homepg_intro">
+        <h2>Business Studies & Information Technology Department</h2>
+
+        <p>"Working for Success"</p>
+
+        <div class="buttons">
+          <a href="staff.html" class="btn">Meet Our Staff</a>
+
+          <a href="courses.html" class="btn">View Courses</a>
+        </div>
+      </div>
+
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
       </div>
     </section>
 
+    <br />
+
+    <section class="homepg_content1">
+      <div class="mission_statement">
+        <h2>Our Mission Statement</h2>
+
+        <p class="mission_statement_content">
+          The Mission Statement of the Business and Information Technology is to
+          lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo
+        </p>
+
+        <br />
+
+        <p class="mission_statement_content">
+          orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo
+        </p>
+      </div>
+    </section>
+
+    <section class="homepg_content2">
+      <div class="display_box">
+        <div class="sec1_first">
+          <div class="icon">📚</div>
+          <h3>Business Education</h3>
+          <p>
+            Our Business Studies programme equips students with the knowledge
+            and practical skills required in Accounting, Management of Business,
+            Principles of Business and Office Administration.
+          </p>
+        </div>
+
+        <div class="sec1_second">
+          <div class="icon">🍎</div>
+          <h3>Experienced Educators</h3>
+
+          <p>
+            Our dedicated teachers provide quality instruction, mentorship and
+            guidance while encouraging students to achieve academic excellence
+            and personal growth.
+          </p>
+        </div>
+
+        <div class="sec1_third">
+          <div class="icon">💻</div>
+          <h3>Information Technology</h3>
+
+          <p>
+            Students gain practical experience in digital literacy, programming
+            fundamentals, productivity software and emerging technologies,
+            preparing them for higher education and today's technology-driven
+            workplace.
+          </p>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="homepg_content3">
+        <h3>About Us</h3>
+        <p>
+          The Business and Information Technology Department is one of many
+          departments at the Ascot High School and is dedicated to preparing
+          students for success in both academic and professional environments.
+          The Department is currently headed by
+          <strong>Miss Lesa Michelin</strong>, who offers a supportive learning
+          environment for all students.
+        </p>
+        <a href="staff.html" class="about_btn">More About Our Department→</a>
+      </div>
+    </section>
+   <!--JAVASCRIPTTT-->
     <script src="script.js"></script>
+    
+     </br>
+    
+    <section class="stats_section">
+
+        <div class="stat">
+
+            <div class="stat_icon">👨‍🏫</div>
+
+            <div class="stat_info">
+                <h2>?</h2>
+                <p>Dedicated Department Members</p>
+            </div>
+
+        </div>
+
+        <div class="stat">
+            <div class="stat_icon">📖</div>
+            <div class="stat_info">
+                <h2>?</h2>
+                <p>CSEC & CAPE Subjects Offered</p>
+            </div>
+        </div>
+
+        <div class="stat">
+            <div class="stat_icon">💻</div>
+            <div class="stat_info">
+                <h2>3</h2>
+                <p>Specialized Computer Laboratories</p>
+            </div>
+        </div>
+
+        <div class="stat">
+            <div class="stat_icon">🏆</div>
+            <div class="stat_info">
+                <h2>100%</h2>
+                <p>Commitment to Student Success</p>
+            </div>
+        </div>
+    </section>
+    
+    </br>
+    
+    <footer>
+      <div class="footer_content">
+        <h3>Ascot High School</h3>
+
+        <p>Business Studies & Information Technology Department</p>
+
+        <p>📍 St. Catherine, Jamaica</p>
+
+        <p>📧email address</p>
+
+        <p>☎ (876) XXX-XXXX</p>
+
+        <hr />
+
+        <p class="copyright">© 2026 Ascot High School. All Rights Reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>

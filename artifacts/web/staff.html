@@ -10,21 +10,55 @@
 
   <body>
     <nav>
-      <div class="logo">
-        <img src="images/logo.webp" alt="Ascot High School Logo" />
-        <h2>ASCOT HIGH SCHOOL</h2>
+      <div>
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Ascot High School Logo" />
+          <h2>ASCOT HIGH SCHOOL</h2>
+        </a>
       </div>
 
       <ul class="nav_links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="staff.html">Staff</a></li>
+        <li class="dropdown">
+          <a href="#">About Us</a>
+
+          <ul class="dropdown_menu">
+            <li><a href="staff.html">Staff</a></li>
+
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </li>
+
         <li><a href="courses.html">Courses</a></li>
-        <li><a href="#">Placeholder</a></li>
       </ul>
     </nav>
 
-    <p>Placeholder</p>
+    <section class="staffpg_hero">
+      <div class="staffpg_intro">
+        <h1>Welcome to the Business and IT Department</h1>
+        <p>
+          The Business and Information Technology Department is one which lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea comm
+        </p>
+      </div>
 
-    <script src="script.js"></script>
+      <div class="staff_member">
+        <h3>Head of Department</h3>
+        <img
+          src="images/banner3.jpg"
+          class="hod_img"
+          alt="Head of Department"
+        />
+
+        <div class="staff_member_text">
+          <p class="staff_name">Miss Lesa Michelin</p>
+        </div>
+      </div>
+    </section>
+
+    <!--<script src="script.js"></script>-->
   </body>
 </html>
